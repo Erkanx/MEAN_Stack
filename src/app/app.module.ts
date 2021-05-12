@@ -22,7 +22,7 @@ import { PostsService } from './posts/posts.service';
     AppComponent,
     PostCreateComponent,
     HeaderComponent,
-    PostListComponent
+    PostListComponent,
   ],
   imports: [
     BrowserModule,
