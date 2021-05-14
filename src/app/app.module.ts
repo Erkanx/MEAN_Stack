@@ -10,7 +10,7 @@ import { MatCardModule } from '@angular/material/card'
 import { MatButtonModule } from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatExpansionModule } from '@angular/material/expansion'
-import { MatProgressSpinnerModule } from '@angular/material';
+import { MatPaginatorModule, MatProgressSpinnerModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
@@ -38,6 +38,7 @@ import { PostsService } from './posts/posts.service';
     MatToolbarModule,
     MatExpansionModule,
     MatProgressSpinnerModule,
+    MatPaginatorModule,
     HttpClientModule  
   ],
   providers: [PostsService],
